@@ -1,0 +1,169 @@
+*{
+  box-sizing: border-box;
+  font-family: montserrat;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-image: url("besoins-en-recrutement.jpeg");
+  background-size: cover;
+}
+
+.container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #f2d4b4;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.container .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 219px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #280d68, #767676);
+}
+.content form .condidat{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .condidat .input{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input span{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.span{
+  font-size: large;
+}
+.condidat .input input{
+  height: 45px;
+  position: relative;
+  background-color: #f2f2f2;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #c2b5b5;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.test{
+    height: 40px;
+    position: relative;
+    background-color: #f2f2f2;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #c2b5b5;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.condidat .input input:focus,
+.condidat .input input:valid{
+  border-color: #000000;
+}
+ form .sexe-info .sexe-titre{
+  font-size: 20px;
+  font-weight: 500;
+ }
+ form .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #fff;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+ #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three{
+   background: #000000;
+   border-color: #d9d9d9;
+ }
+ form input[type="radio"]{
+   display: none;
+ }
+ #button{
+   height: 45px;
+   margin: 35px 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+  input[type="submit"] {
+    border:1px solid #f2d4b4;
+    height: 40px;
+    width: 165px;
+	  background: #2691d9 ;
+	  border-radius:25px ;
+	  font-size: 18px;
+	  color: white;
+	  font-weight: 700;
+	  cursor: pointer;
+	  outline: none;
+  }
+  
+  input[type="submit"]:hover {
+    border-color: #2691d9 ;
+    transition: .5s;
+  }
+
+#sexe{
+  font-size: 20px;
+  font-family: 'Poppins',sans-serif;
+  margin-right: 30px;
+}
+input[type="file"]{
+  width: 87%;
+  height: 125%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+#file-input{
+  display: flex;
+}
+.span-file{
+  font-weight: 500;
+  margin-bottom: 5px;
+  width: 50%;
+  font-size: large;
+  padding-top: 10px;
+}
