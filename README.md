@@ -18,3 +18,19 @@ This repository contains the source code and documentation for a recruiting webs
 - Database: MySQL, PhpMyAdmin
 
 Feel free to customize this template based on the specific details of your recruiting website project. Provide clear and concise information to encourage collaboration and engagement from potential contributors or users.
+
+
+![image](https://github.com/Med020/RecruitMiner/assets/125467087/3a7b05a6-71b9-4518-bd10-66e7d9db5903)
+
+![image](https://github.com/Med020/RecruitMiner/assets/125467087/e509c47e-1033-4dc9-b1f3-eed7a494732b)
+
+![image](https://github.com/Med020/RecruitMiner/assets/125467087/5a9ea636-936f-4abd-811e-9e4e71260799)
+
+![image](https://github.com/Med020/RecruitMiner/assets/125467087/5e4999ae-6c7c-4df2-a3ce-53340f107ebd)
+
+![image](https://github.com/Med020/RecruitMiner/assets/125467087/eb5f11a1-e97a-4fa9-801b-efead4ae5591)
+
+
+
+
+
